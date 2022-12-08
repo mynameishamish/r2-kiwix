@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-    height: 60px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -31,6 +31,7 @@ body {
     max-height: 80px;
     padding-left: 100px;
     padding-top: 8px;
+    padding-right: 25px;
 }
 
 .header-right {
@@ -49,7 +50,9 @@ body {
 .header-left a {
     color: #eee;
     padding-left: 50px;
+    padding-right: 25px;
     font-weight: 900;
+
 }
 
 .landing {
