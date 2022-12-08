@@ -35,7 +35,7 @@ body {
 
 .header-right {
     padding-right: 100px;
-    color: #a51310;
+    color: #d81711;
     font-weight: 900;
 }
 
@@ -92,7 +92,7 @@ body {
     line-height: 1.5em;
     font-weight: 900;
     opacity: 100%;
-    color: #a51310;
+    color: #d81711;
     text-shadow: #eee;
 }
 
@@ -110,12 +110,33 @@ body {
 
 
 .content {
-    height: 50%;
-    width: 100%;
+    min-height: 50%;
     padding-left: 100px;
     padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content_wrapper {
     width: 50%;
     min-width: 450px;
+}
+
+.content_support {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.content_sub {
+    padding-bottom: 25px;
+}
+
+.content_support img {
+    width: 100%;
+    min-width: 250px;
+    max-width: 350px;
 }
 
 .content .heading {
@@ -182,7 +203,7 @@ body {
 
 .contact-copy {
     flex: 1 1 50%;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 
 .contact-form {
@@ -190,10 +211,10 @@ body {
 }
 
 .form-control {
-    width: 350px;
+    width: 450px;
     background-color: white;
     opacity: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 1em;
     padding: 5px;
