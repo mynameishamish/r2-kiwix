@@ -131,6 +131,7 @@ body {
 
 .content_sub {
     padding-bottom: 25px;
+    padding-left: 25px;
 }
 
 .content_support img {
@@ -199,15 +200,18 @@ body {
     margin-bottom: 50px;
     flex: 1;
     justify-items: center;
+    flex-flow: row wrap-reverse;
 }
 
 .contact-copy {
     flex: 1 1 50%;
     padding-right: 100px;
+    width: 350px;
 }
 
 .contact-form {
     flex: 1 1 50%;
+    margin-right: 25px;
 }
 
 .form-control {
@@ -220,8 +224,31 @@ body {
     padding: 5px;
 }
 
+
 .btn {
     padding:5px;
     font-size: 1em;
     font-weight: 900;
+}
+
+
+
+@media (max-width: 975px) {
+    .content_sub {
+        padding-left: 0px;
+    }
+
+    .contact-copy {
+        flex: 1 1 50%;
+        padding-right: 100px;
+        width: 400px;
+    }
+
+    .content {
+        padding-top: 50px;
+    }
+    
+    .content_support {
+        padding-top: 50px;
+    }
 }
